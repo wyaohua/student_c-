@@ -1,0 +1,201 @@
+# C++学习项目的Git忽略文件
+
+# 编译产物
+*.o
+*.ko
+*.obj
+*.elf
+*.ilk
+*.map
+*.exp
+
+# 可执行文件
+*.exe
+*.exe.*
+*.dll
+*.a
+*.so
+*.so.*
+*.dylib
+*.lib
+
+# 编译中间文件
+*.gch
+*.pch
+*.pch.*
+*.gch.*
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+
+# CMake相关文件
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+*.cmake
+
+# 构建目录
+build/
+Build/
+build-*/
+out/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# IDE配置文件
+# Visual Studio
+.vscode/
+.vs/
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sdf
+*.opensdf
+*.psess
+*.db
+*.tlog/
+*.lastbuildstate
+
+# CLion
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.cproject
+.settings/
+.classpath
+
+# Xcode
+*.xcodeproj/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# 学习过程中的临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+\#*\#
+
+# 日志文件
+*.log
+*.log.*
+*.err
+*.out
+
+# 数据文件
+*.dat
+*.data
+*.txt
+*.csv
+*.json
+*.xml
+
+# 学习笔记和文档
+*.md
+*.doc
+*.docx
+*.pdf
+*.txt
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 备份文件
+*.bak
+*.old
+*.orig
+*.backup
+*.patch
+*.diff
+*.rej
+
+# 内存分析工具文件
+*.heap
+*.hprof
+*.core
+core.*
+*.stackdump
+
+# 版本控制文件
+.gitattributes
+.gitmodules
+.git/
+.svn/
+.hg/
+.bzr/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 包管理文件
+# vcpkg
+vcpkg/
+vcpkg_installed/
+*.vcpkg-root
+
+# Conan
+conan.lock
+conanbuildinfo.cmake
+conanbuildinfo.txt
+
+# 测试相关
+test/
+tests/
+Testing/
+*.test
+*.spec
+
+# 生成的文档
+doc/
+docs/
+*.dox
+*.doxygen
+*.chm
+*.qch
+
+# 注意：保留源代码文件
+# *.cpp
+# *.h
+# *.hpp
+# *.cc
+# *.cxx
